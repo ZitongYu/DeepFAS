@@ -1,5 +1,4 @@
-# DeepFAS
-🔥 Deep Learning for Face Anti-spoofing
+# 👏 Survey of Deep Face Anti-spoofing 🔥
 
 This is the official repository of **Deep Learning for Face Anti-Spoofing: A Survey**, a comprehensive survey 
 of recent progress in deep learning methods for face anti-spoofing (FAS) as well as the datasets and protocols.
@@ -8,7 +7,7 @@ of recent progress in deep learning methods for face anti-spoofing (FAS) as well
 ## Introduction
 We present a comprehensive review of recent deep learning methods for face anti-spoofing (mostly from 2018 to 2021). It covers hybrid (handcrafted+deep), pure deep learning, and generalized learning based methods for monocular RGB face anti-spoofing. It also includes multi-modal learning based methods as well as specialized sensor based FAS. It also presents detailed comparision among publicly available datasets, together with several classical evaluation protocols.
 
-We will update this page on a regular basis! So stay tuned~ :tada::tada::tada:
+🔔 We will update this page frequently~ :tada::tada::tada:
 
 ---
 ## Contents
@@ -17,7 +16,7 @@ We will update this page on a regular basis! So stay tuned~ :tada::tada::tada:
   - [Using commercial RGB camera](#data_RGB)
   - [With multiple modalities or specialized sensors](#data_Multimodal)
 - [Deep FAS methods with commercial RGB camera](#methods_RGB)
-  - [Hybrid](#hybrid)
+  - [Hybrid (handcrafted + deep)](#hybrid)
   - [Pure binary cross-entropy supervision](#binary)
   - [Pixel-wise auxiliary supervision](#auxiliary)
   - [Generative model with pixel-wise supervision](#generative)
