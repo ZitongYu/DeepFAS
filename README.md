@@ -106,23 +106,23 @@ We present a comprehensive review of recent deep learning methods for face anti-
 
 | Method    | Year | Backbone | Loss |  Input | Static/Dynamic |
 | --------   | -----    | -----  |  -----  | -----  | -----  |
-| [DPCNN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2016 | VGG-Face | Trained with SVM |  RGB | S|
-| [Multi-cues+NN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2016 | MLP | Binary CE loss |  RGB+OFM | D|
-| [CNN LBP-TOP](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2017 | 5-layer CNN | Binary CE loss, SVM |  RGB | D|
-| [DF-MSLBP](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2018 | Deep forest | Binary CE loss |  HSV+YCbCr | S|
-| [SPMT+SSD](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2018 | VGG16 | Binary CE loss, SVM, bbox regression |  RGB, Landmarks | S|
-| [CHIF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | VGG-Face | Trained with SVM |  RGB | S|
-| [DeepLBP](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | VGG-Face | Binary CE loss, SVM |  RGB, HSV, YCbCr | S|
-| [CNN+LBP+WLD](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | CaffeNet | Binary CE loss |  RGB | S|
-| [Intrinsic](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | 1D-CNN | Trained with SVM |  Reflection | D|
-| [FARCNN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | Multi-scale attentional CNN | Regression loss, Crystal loss, Center loss |  RGB | S|
-| [CNN-LSP](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | 1D-CNN | Trained with SVM |  RGB | D |
-| [DT-Mask](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | VGG16 | Binary CE loss, Channel&Spatial discriminability |  RGB+OF | D |
-| [VGG+LBP](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | VGG16 | Binary CE loss |  RGB | S|
-| [CNN+OVLBP](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | VGG16 | Binary CE loss, NN classifier |  RGB | S|
-| [HOG-Pert.](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | Multi-scale CNN | Binary CE loss |  RGB+HOG | S|
-| [LBP-Pert.](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | Multi-scale CNN | Binary CE loss |  RGB+LBP | S|
-| [TransRPPG](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2021 | Vision Transformer | Binary CE loss |  rPPG map | D |
+| [DPCNN](https://ieeexplore.ieee.org/document/7821013)   | 2016 | VGG-Face | Trained with SVM |  RGB | S|
+| [Multi-cues+NN](https://www.sciencedirect.com/science/article/pii/S1047320316300244)   | 2016 | MLP | Binary CE loss |  RGB+OFM | D|
+| [CNN LBP-TOP](https://ieeexplore.ieee.org/document/7984552)   | 2017 | 5-layer CNN | Binary CE loss, SVM |  RGB | D|
+| [DF-MSLBP](https://arxiv.org/abs/1910.03850)   | 2018 | Deep forest | Binary CE loss |  HSV+YCbCr | S|
+| [SPMT+SSD](https://www.sciencedirect.com/science/article/pii/S0031320318303182)   | 2018 | VGG16 | Binary CE loss, SVM, bbox regression |  RGB, Landmarks | S|
+| [CHIF](http://iab-rubric.org/papers/Manjani-DDLSpoofing.pdf)   | 2019 | VGG-Face | Trained with SVM |  RGB | S|
+| [DeepLBP](https://ieeexplore.ieee.org/document/8296251)   | 2019 | VGG-Face | Binary CE loss, SVM |  RGB, HSV, YCbCr | S|
+| [CNN+LBP+WLD](https://digital-library.theiet.org/content/journals/10.1049/iet-ipr.2018.5560)   | 2019 | CaffeNet | Binary CE loss |  RGB | S|
+| [Intrinsic](https://onlinelibrary.wiley.com/doi/10.1049/iet-bmt.2019.0155)   | 2019 | 1D-CNN | Trained with SVM |  Reflection | D|
+| [FARCNN](https://ieeexplore.ieee.org/document/8911314)   | 2019 | Multi-scale attentional CNN | Regression loss, Crystal loss, Center loss |  RGB | S|
+| [CNN-LSP](https://ieeexplore.ieee.org/document/8626161)   | 2019 | 1D-CNN | Trained with SVM |  RGB | D |
+| [DT-Mask](https://ieeexplore.ieee.org/document/8453011)   | 2019 | VGG16 | Binary CE loss, Channel&Spatial discriminability |  RGB+OF | D |
+| [VGG+LBP](https://ieeexplore.ieee.org/document/8955089)   | 2019 | VGG16 | Binary CE loss |  RGB | S|
+| [CNN+OVLBP](http://www.mecs-press.org/ijigsp/ijigsp-v11-n2/IJIGSP-V11-N2-2.pdf)   | 2019 | VGG16 | Binary CE loss, NN classifier |  RGB | S|
+| [HOG-Pert.](https://link.springer.com/chapter/10.1007/978-3-030-20005-3_1)   | 2019 | Multi-scale CNN | Binary CE loss |  RGB+HOG | S|
+| [LBP-Pert.](https://www.sciencedirect.com/science/article/pii/S0262885619304512)   | 2020 | Multi-scale CNN | Binary CE loss |  RGB+LBP | S|
+| [TransRPPG](https://ieeexplore.ieee.org/document/9460762)   | 2021 | Vision Transformer | Binary CE loss |  rPPG map | D |
 
 
 
