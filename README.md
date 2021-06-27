@@ -17,7 +17,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
   - [With multiple modalities or specialized sensors](#data_Multimodal)
 - [Deep FAS methods with commercial RGB camera](#methods_RGB)
   - [Hybrid (handcrafted + deep)](#hybrid)
-  - [Pure binary cross-entropy supervision](#binary)
+  - [End-to-end binary cross-entropy supervision](#binary)
   - [Pixel-wise auxiliary supervision](#auxiliary)
   - [Generative model with pixel-wise supervision](#generative)
   - [Domain adaptation](#DA)
@@ -123,13 +123,51 @@ We present a comprehensive review of recent deep learning methods for face anti-
 
 
 
-
-
-
-
 <a name="binary" />
 
-#### Pure binary cross-entropy supervision
+#### End-to-end binary cross-entropy supervision
+| Method    | Year | Backbone | Loss |  Input | Static/Dynamic |
+| --------   | -----    | -----  |  -----  | -----  | -----  |
+| [CNN1](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2014 | 8-layer CNN | Trained with SVM |  RGB | S|
+| [LSTM-CNN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2015 | CNN+LSTM | Binary CE loss |  RGB | D|
+| [SpoofNet](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2015 | 2-layer CNN | Binary CE loss |  RGB | S|
+| [HybridCNN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2017 | VGG-Face | Trained with SVM |  RGB | S|
+| [CNN2](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2017 | VGG11 | Binary CE loss |  RGB | S|
+| [Ultra-Deep](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2017 | ResNet50+LSTM | Binary CE loss |  RGB | D|
+| [FASNet](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2017 | VGG16 | Binary CE loss |  RGB | S|
+| [CNN3](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2018 | Inception, ResNet | Binary CE loss |  RGB | S|
+| [MILHP](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2018 | ResNet+STN | Multiple Instances CE loss |  RGB | D|
+| [LSCNN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2018 | 9 PatchNets | Binary CE loss |  RGB | S|
+| [LiveNet](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2018 | VGG11 | Binary CE loss |  RGB | S|
+| [MS-FANS ](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2018 | AlexNet+LSTM | Binary CE loss |  RGB | S|
+| [DeepColorFAS](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2018 | 5-layer CNN | Binary CE loss |  RGB, HSV, YCbCr | S|
+| [Siamese](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | AlexNet | Contrastive loss |  RGB | S|
+| [FSBuster](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | ResNet50 | Trained with SVM |  RGB | S|
+| [FuseDNG](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | 7-layer CNN | Binary CE loss, Reconstruction loss |  RGB | S|
+| [STASN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | ResNet50+LSTM | Binary CE loss |  RGB | D|
+| [TSCNN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | ResNet18 | Binary CE loss |  RGB, MSR | S|
+| [FAS-UCM](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | MobileNetV2, VGG19 | Binary CE loss, Style loss |  RGB | S|
+| [SLRNN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | ResNet50+LSTM | Binary CE loss |  RGB | D|
+| [GFA-CNN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | VGG16 | Binary CE loss |  RGB | S|
+| [3DSynthesis](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | ResNet15 | Binary CE loss |  RGB | S|
+| [CompactNet](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | VGG19 | Points-to-Center triplet loss |  RGB | S|
+| [SSR-FCN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | FCN with 6 layers | Binary CE loss |  RGB | S|
+| [FasTCo](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | ResNet50 or MobileNetV2 | Multi-class CE loss, Temporal Consistency loss, Class Consistency loss|  RGB | D|
+| [DRL-FAS](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | ResNet18+GRU | Binary CE loss |  RGB | S|
+| [SfSNet](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | 6-layer CNN | Binary CE loss |  Albedo, Depth, Reflection| S|
+| [LivenesSlight](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | 6-layer CNN | Binary CE loss |  RGB | S|
+| [MotionEnhancement](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | VGGface+LSTM | Binary CE loss |  RGB | D|
+| [CFSA-FAS](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | ResNet18 | Binary CE loss |  RGB | S|
+| [MC-FBC](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | VGG16, ResNet50 | Binary CE loss |  RGB | S|
+| [SimpleNet](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | Multi-stream 5-layer CNN | Binary CE loss |  RGB, OF, RP | D|
+| [PatchCNN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | SqueezeNet v1.1 | Binary CE loss, Triplet loss |  RGB | S|
+| [FreqSpatialTempNet](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | ResNet18 | Binary CE loss |  RGB, HSV, Spectral | D|
+| [ViTranZFAS](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | Vision Transformer | Binary CE loss |  RGB | S|
+| [CIFL](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2021 | ResNet18 | Binary focal loss, camear type loss |  RGB | S|
+
+
+
+
 
 
 <a name="auxiliary" />
