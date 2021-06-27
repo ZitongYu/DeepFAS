@@ -174,6 +174,28 @@ We present a comprehensive review of recent deep learning methods for face anti-
 
 #### Pixel-wise auxiliary supervision
 
+| Method    | Year | Supervision | Backbone |  Input | Static/Dynamic |
+| --------   | -----    | -----  |  -----  | -----  | -----  |
+| [Depth&Patch](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2017 | Depth | PatchNet, DepthNet |  YCbCr, HSV | S|
+| [Auxiliary](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2018 | Depth, rPPG spectrum | DepthNet |  RGB, HSV | D|
+| [BASN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | Depth, Reflection | DepthNet, Enrichment |  RGB, HSV | S|
+| [DTN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | BinaryMask | Tree Network |  RGB, HSV | S|
+| [PixBiS](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | BinaryMask | DenseNet161 |  RGB | S|
+| [A-PixBiS](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | BinaryMask | DenseNet161 |  RGB | S|
+| [Auto-FAS](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | BinaryMask | NAS |  RGB | S|
+| [MRCNN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | BinaryMask | Shallow CNN |  RGB | S|
+| [FCN-LSA](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | BinaryMask | DepthNet |  RGB | S|
+| [CDCN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | Depth | DepthNet |  RGB | S|
+| [FAS-SGTD](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | Depth | DepthNet, STPM |  RGB | D|
+
+
+
+
+
+
+
+
+
 <a name="generative" />
 
 #### Generative model with pixel-wise supervision
