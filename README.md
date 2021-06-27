@@ -28,8 +28,8 @@ We present a comprehensive review of recent deep learning methods for face anti-
   - [Learning upon specialized sensor](#sensor)
   - [Multi-modal learning](#multimodal)
   
-  
-  ![image](https://github.com/ZitongYu/DeepFAS/blob/master/Topology.png)   
+---
+  ![image](https://github.com/ZitongYu/DeepFAS/blob/main/Topology.png)   
   
 ---
 
