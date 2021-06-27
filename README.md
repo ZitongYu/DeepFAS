@@ -223,7 +223,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 #### Domain adaptation
 
 | Method    | Year | Backbone | Loss |  Static/Dynamic |
-| --------   | -----    | -----  |  -----  | -----  | -----  |
+| --------   | -----    | -----  |  -----  | -----  | 
 | [OR-DA](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2018 | AlexNet | Binary CE loss, MMD loss |  S|
 | [DTCNN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | AlexNet | Binary CE loss, MMD loss |  S|
 | [Adversarial](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | ResNet18 | Triplet loss, Adversarial loss |  S|
