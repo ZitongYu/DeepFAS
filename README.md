@@ -303,6 +303,24 @@ We present a comprehensive review of recent deep learning methods for face anti-
 
 #### Learning upon specialized sensor
 
+
+| Method    | Year | Backbone | Loss |  Input | Static/Dynamic |
+| --------   | -----    | -----  |  -----  | -----  | -----  |
+| [Thermal-FaceCNN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | AlexNet | Regression loss |  Thermal infrared face image | S|
+| [SLNet](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | 17-layer CNN | Binary CE loss |  Stereo (left&right) face images | S|
+| [Aurora-Guard](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | U-Net | Binary CE loss, Depth regression, Light Regression |  Casted face with dynamic changing light specified by random light CAPTCHA | D|
+| [LFC](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | AlexNet | Binary CE loss |  Ray difference/microlens images from light field camera | S|
+| [PAAS](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | MobileNetV2 | Contrastive loss, SVM |  Four-directional polarized face image | S|
+| [Face-Revelio](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | Siamese-AlexNet | L1 distance |  Four flash lights displayed on four quarters of a screen | D|
+| [SpecDiff](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | ResNet4 | Binary CE loss |  Concatenated face images w/ and w/o flash | S|
+| [MC-PixBiS](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | DenseNet161 | Binary mask loss |  SWIR images differences | S|
+| [Thermalization](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | YOLO V3+GoogLeNet | Binary CE loss |  Thermal infrared face image | S|
+| [DP Bin-Cls-Net](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2021 | Shallow U-Net + Xception | Transformation consistency, Relative disparity loss, Binary CE loss |  DP image pair | S|
+
+
+
+
+
 <a name="multimodal" />
 
 #### Multi-modal learning
