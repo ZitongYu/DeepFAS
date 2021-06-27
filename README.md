@@ -41,14 +41,17 @@ We present a comprehensive review of recent deep learning methods for face anti-
 
 #### Datasets recorded with commercial RGB camera
 
-|Method    | xx| xx  | xx |  xx |  xx| Paper
+| Dataset    | Year | #Live/Spoof | #Sub. |  Setup | Attack Types
 | --------   | -----    | -----  |  -----  | ----- |------|------------------------|
-|xx     | xx | xx% | xx%|  xx% |xx |xx [PDF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)|
+| NUAA  [PDF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2010 | 5105/7509(I) | 15 |  N/R | Print(flat, wrapped)|
 
 <a name="data_Multimodal" />
 
 #### Datasets with multiple modalities or specialized sensors
 
+|Method    | xx| xx  | xx |  xx |  xx| Paper
+| --------   | -----    | -----  |  -----  | ----- |------|------------------------|
+|xx     | xx | xx% | xx%|  xx% |xx |xx [PDF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)|
 
 ---
 <a name="methods_RGB" />
