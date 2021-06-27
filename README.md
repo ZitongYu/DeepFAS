@@ -205,6 +205,22 @@ We present a comprehensive review of recent deep learning methods for face anti-
 
 #### Generative model with pixel-wise supervision
 
+| Method    | Year | Supervision | Backbone |  Input | Static/Dynamic |
+| --------   | -----    | -----  |  -----  | -----  | -----  |
+| [De-Spoof](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2018 | Depth, BinaryMask, FourierMap | DSNet, DepthNet |  RGB, HSV | S|
+| [Reconstruction](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | RGB Input (live), ZeroMap (spoof) | U-Net |  RGB | S|
+| [LGSC](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | ZeroMap (live) | U-Net, ResNet18 |  RGB | S|
+| [TAE](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | Binary CE loss, Reconstruction loss | Info-VAE, DenseNet161 |  RGB | S|
+| [STDN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | BinaryMask, RGB Input (live) | U-Net, PatchGAN |  RGB | S|
+| [GOGen](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | RGB input |  DepthNet |  RGB+one-hot vector | S|
+| [PhySTD](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2021 | Depth, RGB Input (live) |  U-Net, PatchGAN |  Frequency Trace | S|
+| [MT-FAS](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2021 | ZeroMap (live), LearnableMap (Spoof) |  DepthNet |  RGB | S|
+
+
+
+
+
+
 <a name="DA" />
 
 #### Domain adaptation
