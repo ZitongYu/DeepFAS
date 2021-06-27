@@ -262,9 +262,23 @@ We present a comprehensive review of recent deep learning methods for face anti-
 
 #### Zero/Few-shot learning
 
+
+| Method    | Year | Backbone | Loss |  Input |
+| --------   | -----    | -----  |  -----  | -----  | 
+| [DTN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | Deep Tree Network | Binary CE loss, Pixel-wise binary loss, Unsupervised Tree loss |  RGB, HSV|
+| [AIM-FAS](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | DepthNet | Depth loss, Contrastive Depth loss |  RGB |
+| [CM-PAD](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2021 | DepthNet, ResNet | Binary CE loss, Depth loss, Gradient alignment |  RGB|
+
+
+
 <a name="oneclass" />
 
 #### Anomaly detection
+
+
+| Method    | Year | Backbone | Loss |  Static/Dynamic |
+| --------   | -----    | -----  |  -----  | -----  | 
+| [MADDG](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | DepthNet | Binary CE & Depth loss, Multi-adversarial loss, Dual-force Triplet loss |  S|
 
 
 
