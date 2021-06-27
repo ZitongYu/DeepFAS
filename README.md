@@ -276,9 +276,20 @@ We present a comprehensive review of recent deep learning methods for face anti-
 #### Anomaly detection
 
 
-| Method    | Year | Backbone | Loss |  Static/Dynamic |
+| Method    | Year | Backbone | Loss |  Input |
 | --------   | -----    | -----  |  -----  | -----  | 
-| [MADDG](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | DepthNet | Binary CE & Depth loss, Multi-adversarial loss, Dual-force Triplet loss |  S|
+| [AE+LBP](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2018 | AutoEncoder | Reconstruction loss |  RGB|
+| [Anomaly](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | ResNet50 | Triplet focal loss, Metric-Softmax loss |  RGB|
+| [Anomaly2](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | GoogLeNet or ResNet50 | Mahalanobis distance |  RGB|
+| [Hypersphere](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | ResNet18 | Hypersphere loss |  RGB, HSV |
+| [Ensemble-Anomaly](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | GoogLeNet or ResNet50 | Gaussian Mixture Model (not end-to-end) |  RGB, patches|
+| [MCCNN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | LightCNN | Binary CE loss, Contrastive loss |  Grayscale, IR, Depth, Thermal|
+| [End2End-Anomaly](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | VGG-Face | Binary CE loss, Pairwise confusion |  RGB|
+| [ClientAnomaly](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | ResNet50 or GoogLeNet or VGG16 | One-class SVM or Mahalanobis distance or Gaussian Mixture Model |  RGB|
+
+
+
+
 
 
 
