@@ -227,16 +227,16 @@ We present a comprehensive review of recent deep learning methods for face anti-
 
 | Method    | Year | Backbone | Loss |  Static/Dynamic |
 | --------   | -----    | -----  |  -----  | -----  | 
-| [OR-DA](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2018 | AlexNet | Binary CE loss, MMD loss |  S|
-| [DTCNN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | AlexNet | Binary CE loss, MMD loss |  S|
-| [Adversarial](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | ResNet18 | Triplet loss, Adversarial loss |  S|
-| [ML-MMD](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | Multi-scale FCN | CE loss, MMD loss |  S|and unlabeled sets
-| [OCA-FAS](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | DepthNet | Binary CE loss, Pixel-wise binary loss |  S|
-| [DR-UDA](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | ResNet18 | Center&Triplet loss, Adversarial loss, Disentangled loss |  S|
-| [DGP](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | DenseNet161 | Feature divergence measure, BinaryMask loss |  S|
-| [Distillation](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | AlexNet | Binary CE loss, MMD loss , Paired Similarity |  S|
-| [S-CNN++PL+TC](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2021 | ResNet18 | CE Loss in labeled and unlabeled sets |  D|
-| [USDAN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2021 | ResNet18 | Adaptive binary CE loss, Entropy loss, Adversarial loss |  S|
+| [OR-DA](https://ieeexplore.ieee.org/document/8279564)   | 2018 | AlexNet | Binary CE loss, MMD loss |  S|
+| [DTCNN](https://arxiv.org/abs/1901.05633)   | 2019 | AlexNet | Binary CE loss, MMD loss |  S|
+| [Adversarial](https://ieeexplore.ieee.org/document/8987254)   | 2019 | ResNet18 | Triplet loss, Adversarial loss |  S|
+| [ML-MMD](https://ieeexplore.ieee.org/abstract/document/8795006)   | 2019 | Multi-scale FCN | CE loss, MMD loss |  S|and unlabeled sets
+| [OCA-FAS](https://www.sciencedirect.com/science/article/pii/S0925231220313540)   | 2020 | DepthNet | Binary CE loss, Pixel-wise binary loss |  S|
+| [DR-UDA](https://ieeexplore.ieee.org/abstract/document/9116802)   | 2020 | ResNet18 | Center&Triplet loss, Adversarial loss, Disentangled loss |  S|
+| [DGP](https://ieeexplore.ieee.org/document/9053685)   | 2020 | DenseNet161 | Feature divergence measure, BinaryMask loss |  S|
+| [Distillation](https://signalprocessingsociety.org/publications-resources/ieee-journal-selected-topics-signal-processing/face-anti-spoofing-deep-neural)   | 2020 | AlexNet | Binary CE loss, MMD loss , Paired Similarity |  S|
+| [S-CNN++PL+TC](https://ieeexplore.ieee.org/document/9387164)   | 2021 | ResNet18 | CE Loss in labeled and unlabeled sets |  D|
+| [USDAN](https://www.sciencedirect.com/science/article/pii/S0031320321000753?via%3Dihub)   | 2021 | ResNet18 | Adaptive binary CE loss, Entropy loss, Adversarial loss |  S|
 
 
 
@@ -249,14 +249,14 @@ We present a comprehensive review of recent deep learning methods for face anti-
 
 | Method    | Year | Backbone | Loss |  Static/Dynamic |
 | --------   | -----    | -----  |  -----  | -----  | 
-| [MADDG](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | DepthNet | Binary CE & Depth loss, Multi-adversarial loss, Dual-force Triplet loss |  S|
-| [PAD-GAN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | ResNet18 | Binary CE & Depth loss, Multi-adversarial loss, Dual-force Triplet loss |  S|
-| [DASN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | ResNet18 | Binary CE & Spoof-irrelevant factor loss |  S|
-| [SSDG](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | ResNet18 | Binary CE loss, Single-Side adversarial loss, Asymmetric Triplet loss |  S|
-| [RF-Meta](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | DepthNet | Binary CE loss, Depth loss |  S|
-| [CCDD](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | ResNet50+LSTM | Binary CE loss, Class-conditional loss |  D|
-| [SDA](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2021 | DepthNet | Binary CE & Depth loss, Reconstruction loss, Orthogonality regularization |  S|
-| [D2AM](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2021 | DepthNet | Binary CE loss, Depth loss, MMD loss |  S|
+| [MADDG](https://openaccess.thecvf.com/content_CVPR_2019/papers/Shao_Multi-Adversarial_Discriminative_Deep_Domain_Generalization_for_Face_Presentation_Attack_Detection_CVPR_2019_paper.pdf)   | 2019 | DepthNet | Binary CE & Depth loss, Multi-adversarial loss, Dual-force Triplet loss |  S|
+| [PAD-GAN](https://arxiv.org/abs/2004.01959)   | 2020 | ResNet18 | Binary CE & Depth loss, Multi-adversarial loss, Dual-force Triplet loss |  S|
+| [DASN](https://ieeexplore.ieee.org/document/9423958)   | 2020 | ResNet18 | Binary CE & Spoof-irrelevant factor loss |  S|
+| [SSDG](https://openaccess.thecvf.com/content_CVPR_2020/papers/Jia_Single-Side_Domain_Generalization_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | ResNet18 | Binary CE loss, Single-Side adversarial loss, Asymmetric Triplet loss |  S|
+| [RF-Meta](https://arxiv.org/abs/1911.10771)   | 2020 | DepthNet | Binary CE loss, Depth loss |  S|
+| [CCDD](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w48/Saha_Domain_Agnostic_Feature_Learning_for_Image_and_Video_Based_Face_CVPRW_2020_paper.pdf)   | 2020 | ResNet50+LSTM | Binary CE loss, Class-conditional loss |  D|
+| [SDA](https://arxiv.org/abs/2102.12129)   | 2021 | DepthNet | Binary CE & Depth loss, Reconstruction loss, Orthogonality regularization |  S|
+| [D2AM](https://ojs.aaai.org/index.php/AAAI/article/view/16199)   | 2021 | DepthNet | Binary CE loss, Depth loss, MMD loss |  S|
 
 
 
@@ -268,9 +268,9 @@ We present a comprehensive review of recent deep learning methods for face anti-
 
 | Method    | Year | Backbone | Loss |  Input |
 | --------   | -----    | -----  |  -----  | -----  | 
-| [DTN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | Deep Tree Network | Binary CE loss, Pixel-wise binary loss, Unsupervised Tree loss |  RGB, HSV|
-| [AIM-FAS](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | DepthNet | Depth loss, Contrastive Depth loss |  RGB |
-| [CM-PAD](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2021 | DepthNet, ResNet | Binary CE loss, Depth loss, Gradient alignment |  RGB|
+| [DTN](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Deep_Tree_Learning_for_Zero-Shot_Face_Anti-Spoofing_CVPR_2019_paper.pdf)   | 2019 | Deep Tree Network | Binary CE loss, Pixel-wise binary loss, Unsupervised Tree loss |  RGB, HSV|
+| [AIM-FAS](https://ojs.aaai.org/index.php/AAAI/article/view/6866)   | 2020 | DepthNet | Depth loss, Contrastive Depth loss |  RGB |
+| [CM-PAD](https://ieeexplore.ieee.org/document/9304920)   | 2021 | DepthNet, ResNet | Binary CE loss, Depth loss, Gradient alignment |  RGB|
 
 
 
@@ -281,14 +281,14 @@ We present a comprehensive review of recent deep learning methods for face anti-
 
 | Method    | Year | Backbone | Loss |  Input |
 | --------   | -----    | -----  |  -----  | -----  | 
-| [AE+LBP](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2018 | AutoEncoder | Reconstruction loss |  RGB|
-| [Anomaly](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | ResNet50 | Triplet focal loss, Metric-Softmax loss |  RGB|
-| [Anomaly2](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | GoogLeNet or ResNet50 | Mahalanobis distance |  RGB|
-| [Hypersphere](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | ResNet18 | Hypersphere loss |  RGB, HSV |
-| [Ensemble-Anomaly](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | GoogLeNet or ResNet50 | Gaussian Mixture Model (not end-to-end) |  RGB, patches|
-| [MCCNN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | LightCNN | Binary CE loss, Contrastive loss |  Grayscale, IR, Depth, Thermal|
-| [End2End-Anomaly](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | VGG-Face | Binary CE loss, Pairwise confusion |  RGB|
-| [ClientAnomaly](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | ResNet50 or GoogLeNet or VGG16 | One-class SVM or Mahalanobis distance or Gaussian Mixture Model |  RGB|
+| [AE+LBP](https://ieeexplore.ieee.org/abstract/document/8698574)   | 2018 | AutoEncoder | Reconstruction loss |  RGB|
+| [Anomaly](https://openaccess.thecvf.com/content_CVPRW_2019/papers/CFS/Perez-Cabo_Deep_Anomaly_Detection_for_Generalized_Face_Anti-Spoofing_CVPRW_2019_paper.pdf)   | 2019 | ResNet50 | Triplet focal loss, Metric-Softmax loss |  RGB|
+| [Anomaly2](https://ieeexplore.ieee.org/document/8682253)   | 2019 | GoogLeNet or ResNet50 | Mahalanobis distance |  RGB|
+| [Hypersphere](https://www.researchgate.net/publication/338920244_UNSEEN_FACE_PRESENTATION_ATTACK_DETECTION_WITH_HYPERSPHERE_LOSS)   | 2020 | ResNet18 | Hypersphere loss |  RGB, HSV |
+| [Ensemble-Anomaly](https://ieeexplore.ieee.org/document/9190814)   | 2020 | GoogLeNet or ResNet50 | Gaussian Mixture Model (not end-to-end) |  RGB, patches|
+| [MCCNN](https://ieeexplore.ieee.org/document/9153044)   | 2020 | LightCNN | Binary CE loss, Contrastive loss |  Grayscale, IR, Depth, Thermal|
+| [End2End-Anomaly](https://arxiv.org/abs/2007.05856)   | 2020 | VGG-Face | Binary CE loss, Pairwise confusion |  RGB|
+| [ClientAnomaly](https://www.sciencedirect.com/science/article/pii/S0031320320304994)   | 2020 | ResNet50 or GoogLeNet or VGG16 | One-class SVM or Mahalanobis distance or Gaussian Mixture Model |  RGB|
 
 
 
