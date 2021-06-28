@@ -210,14 +210,14 @@ We present a comprehensive review of recent deep learning methods for face anti-
 
 | Method    | Year | Supervision | Backbone |  Input | Static/Dynamic |
 | --------   | -----    | -----  |  -----  | -----  | -----  |
-| [De-Spoof](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2018 | Depth, BinaryMask, FourierMap | DSNet, DepthNet |  RGB, HSV | S|
-| [Reconstruction](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2019 | RGB Input (live), ZeroMap (spoof) | U-Net |  RGB | S|
-| [LGSC](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | ZeroMap (live) | U-Net, ResNet18 |  RGB | S|
-| [TAE](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | Binary CE loss, Reconstruction loss | Info-VAE, DenseNet161 |  RGB | S|
-| [STDN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | BinaryMask, RGB Input (live) | U-Net, PatchGAN |  RGB | S|
-| [GOGen](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | RGB input |  DepthNet |  RGB+one-hot vector | S|
-| [PhySTD](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2021 | Depth, RGB Input (live) |  U-Net, PatchGAN |  Frequency Trace | S|
-| [MT-FAS](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Searching_Central_Difference_Convolutional_Networks_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2021 | ZeroMap (live), LearnableMap (Spoof) |  DepthNet |  RGB | S|
+| [De-Spoof](https://arxiv.org/abs/1807.09968)   | 2018 | Depth, BinaryMask, FourierMap | DSNet, DepthNet |  RGB, HSV | S|
+| [Reconstruction](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8997504)   | 2019 | RGB Input (live), ZeroMap (spoof) | U-Net |  RGB | S|
+| [LGSC](https://arxiv.org/abs/2005.03922)   | 2020 | ZeroMap (live) | U-Net, ResNet18 |  RGB | S|
+| [TAE](http://publications.idiap.ch/downloads/papers/2020/Mohammadi_InfoVAE_ICASSP_2020.pdf)   | 2020 | Binary CE loss, Reconstruction loss | Info-VAE, DenseNet161 |  RGB | S|
+| [STDN](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630392.pdf)   | 2020 | BinaryMask, RGB Input (live) | U-Net, PatchGAN |  RGB | S|
+| [GOGen](https://openaccess.thecvf.com/content_CVPR_2020/papers/Stehouwer_Noise_Modeling_Synthesis_and_Classification_for_Generic_Object_Anti-Spoofing_CVPR_2020_paper.pdf)   | 2020 | RGB input |  DepthNet |  RGB+one-hot vector | S|
+| [PhySTD](https://arxiv.org/abs/2012.05185)   | 2021 | Depth, RGB Input (live) |  U-Net, PatchGAN |  Frequency Trace | S|
+| [MT-FAS](https://ieeexplore.ieee.org/document/9462562)   | 2021 | ZeroMap (live), LearnableMap (Spoof) |  DepthNet |  RGB | S|
 
 
 
