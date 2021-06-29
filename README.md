@@ -237,6 +237,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [Distillation](https://signalprocessingsociety.org/publications-resources/ieee-journal-selected-topics-signal-processing/face-anti-spoofing-deep-neural)   | 2020 | AlexNet | Binary CE loss, MMD loss , Paired Similarity |  S|
 | [S-CNN++PL+TC](https://ieeexplore.ieee.org/document/9387164)   | 2021 | ResNet18 | CE Loss in labeled and unlabeled sets |  D|
 | [USDAN](https://www.sciencedirect.com/science/article/pii/S0031320321000753?via%3Dihub)   | 2021 | ResNet18 | Adaptive binary CE loss, Entropy loss, Adversarial loss |  S|
+| [SASA](https://arxiv.org/pdf/2106.14162.pdf)   | 2021 | ResNet18 | CE Loss, Adversarial loss, Less-forgetting constraints, Contrastive semantic alignment |  S|
 
 
 
