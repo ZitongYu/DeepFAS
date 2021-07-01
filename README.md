@@ -257,7 +257,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [RF-Meta](https://arxiv.org/abs/1911.10771)   | AAAI 2020 | DepthNet | Binary CE loss, Depth loss |  S|
 | [CCDD](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w48/Saha_Domain_Agnostic_Feature_Learning_for_Image_and_Video_Based_Face_CVPRW_2020_paper.pdf)   | CVPRW 2020 | ResNet50+LSTM | Binary CE loss, Class-conditional loss |  D|
 | [SDA](https://arxiv.org/abs/2102.12129)   |  AAAI 2021 | DepthNet | Binary CE & Depth loss, Reconstruction loss, Orthogonality regularization |  S|
-| [D2AM](https://ojs.aaai.org/index.php/AAAI/article/view/16199)   | 2021 (AAAI) | DepthNet | Binary CE loss, Depth loss, MMD loss |  S|
+| [D2AM](https://ojs.aaai.org/index.php/AAAI/article/view/16199)   |AAAI 2021 | DepthNet | Binary CE loss, Depth loss, MMD loss |  S|
 | [DRDG](https://arxiv.org/pdf/2106.16128.pdf)   |  IJCAI 2021 | DepthNet | Binary CE loss, Depth loss, Domain loss |  S|
 
 
