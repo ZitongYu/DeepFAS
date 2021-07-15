@@ -259,6 +259,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [SDA](https://arxiv.org/abs/2102.12129)   |  AAAI 2021 | DepthNet | Binary CE & Depth loss, Reconstruction loss, Orthogonality regularization |  S|
 | [D2AM](https://ojs.aaai.org/index.php/AAAI/article/view/16199)   |AAAI 2021 | DepthNet | Binary CE loss, Depth loss, MMD loss |  S|
 | [DRDG](https://arxiv.org/pdf/2106.16128.pdf)   |  IJCAI 2021 | DepthNet | Binary CE loss, Depth loss, Domain loss |  S|
+| [PDL-FAS](https://arxiv.org/pdf/2107.06552.pdf)   |  2021 | DepthNet | Binary CE loss, Depth loss |  S|
 
 
 
