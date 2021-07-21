@@ -366,7 +366,7 @@ If you find our work useful in your research, please consider citing:
     @article{yu2021deep,
       title={Deep Learning for Face Anti-Spoofing: A Survey},
       author={Yu, Zitong and Qin, Yunxiao and Li, Xiaobai and Zhao, Chenxu and Lei, Zhen and Zhao, Guoying},
-      journal={arXiv},
+      journal={arXiv preprint arXiv:2106.14948},
       year={2021}
     }
     
