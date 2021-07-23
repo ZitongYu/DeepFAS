@@ -201,7 +201,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [DAM](https://ieeexplore.ieee.org/abstract/document/9382387)   | 2021 | Depth | VGG16, TSM |  RGB | D|
 | [Bi-FPNFAS](https://www.mdpi.com/1424-8220/21/8/2799)   | 2021 | Fourier spectra | EfficientNetB0, FPN |  RGB | S|
 | [DC-CDN](https://arxiv.org/abs/2105.01290)   | IJCAI 2021 | Depth | CDCN |  RGB | S|
-
+| [DCN](https://arxiv.org/pdf/2107.10628.pdf)   | IJCB 2021 | Reflection | DepthNet |  RGB | S|
 
 
 <a name="generative" />
