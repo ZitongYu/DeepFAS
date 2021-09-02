@@ -89,7 +89,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [WMCA](https://ieeexplore.ieee.org/document/8714076)   | 2019 | 347/1332(V) | 72 |  VIS, Depth, NIR, Thermal | 6 sessions with different backgrounds and illumination; pulse data for bonafide recordings | Print(flat), Replay(tablet), Partial(glasses), Mask(plastic, silicone, and paper, Mannequin) |
 | [CeFA](https://openaccess.thecvf.com/content/WACV2021/html/Liu_CASIA-SURF_CeFA_A_Benchmark_for_Multi-Modal_Cross-Ethnicity_Face_Anti-Spoofing_WACV_2021_paper.html)   | 2020 | 6300/27900(V) | 1607 |  VIS, Depth, NIR | 3 ethnicities; outdoor & indoor; decoration with wig and glasses | Print(flat, wrapped), Replay, Mask(3D print, silica gel) |
 | [HQ-WMCA](https://ieeexplore.ieee.org/abstract/document/9146362)   | 2020 | 555/2349(V) | 51 | VIS, Depth, NIR, SWIR, Thermal | Indoor; 14 ‘modalities’, including 4 NIR and 7 SWIR wavelengths; masks and mannequins were heated up to reach body temperature | Laser or inkjet Print(flat), Replay(tablet, phone), Mask(plastic, silicon, paper, mannequin), Makeup, Partial(glasses, wigs, tatoo) |
-
+| [PADISI-Face](https://arxiv.org/pdf/2108.12081.pdf)   | 2021 | 1105/924(V) | 360 | VIS, Depth, NIR, SWIR, Thermal | Indoor, fixed background, 60-frame sequence of 1984 × 1264 pixel images | print(flat), replay(tablet, phone), mask(plastic, silicon, transparent, Mannequin), makeup/tatoo, partial(glasses,funny eye) |
 
 
 
