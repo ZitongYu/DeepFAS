@@ -218,7 +218,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [GOGen](https://openaccess.thecvf.com/content_CVPR_2020/papers/Stehouwer_Noise_Modeling_Synthesis_and_Classification_for_Generic_Object_Anti-Spoofing_CVPR_2020_paper.pdf)   | CVPR 2020 | RGB input |  DepthNet |  RGB+one-hot vector | S|
 | [PhySTD](https://arxiv.org/abs/2012.05185)   | 2021 | Depth, RGB Input (live) |  U-Net, PatchGAN |  Frequency Trace | S|
 | [MT-FAS](https://ieeexplore.ieee.org/document/9462562)   | PAMI 2021 | ZeroMap (live), LearnableMap (Spoof) |  DepthNet |  RGB | S|
-
+| [IF-OM](https://arxiv.org/pdf/2109.04100.pdf)   | 2021 | RGB input, mixed input features |  MobileNetV2 + UNet |  RGB, mixed RGB, folded RGB | S|
 
 
 <a name="DA" />
