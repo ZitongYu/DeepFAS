@@ -262,6 +262,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [DRDG](https://arxiv.org/pdf/2106.16128.pdf)   |  IJCAI 2021 | DepthNet | Binary CE loss, Depth loss, Domain loss |  S|
 | [PDL-FAS](https://arxiv.org/pdf/2107.06552.pdf)   |  2021 | DepthNet | Binary CE loss, Depth loss |  S|
 | [AFNM+DCC](https://arxiv.org/abs/2108.02667)   | ACMMM 2021 | DepthNet | Binary CE loss, Depth loss, Inter-Domain Compatible Loss, Inter-Class Separable Loss |  S|
+| [HFN+MP](https://arxiv.org/abs/2110.06753)   | 2021 | Two-stream ResNet50 | Binary CE loss, MSE loss |  S|
 
 
 <a name="zero-shot" />
