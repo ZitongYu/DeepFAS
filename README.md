@@ -4,7 +4,6 @@ This is the official repository of "**[Deep Learning for Face Anti-Spoofing: A S
 of recent progress in deep learning methods for face anti-spoofing (FAS) as well as the datasets and protocols.
 
 
----
 
 ### Citation
 If you find our work useful in your research, please consider citing:
@@ -15,8 +14,7 @@ If you find our work useful in your research, please consider citing:
       journal={arXiv preprint arXiv:2106.14948},
       year={2021}
     }
-    
----
+
 
 ## Introduction
 We present a comprehensive review of recent deep learning methods for face anti-spoofing (mostly from 2018 to 2021). It covers hybrid (handcrafted+deep), pure deep learning, and generalized learning based methods for monocular RGB face anti-spoofing. It also includes multi-modal learning based methods as well as specialized sensor based FAS. It also presents detailed comparision among publicly available datasets, together with several classical evaluation protocols.
