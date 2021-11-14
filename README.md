@@ -167,9 +167,8 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [FreqSpatialTempNet](https://arxiv.org/abs/2002.03723)   | 2020 | ResNet18 | Binary CE loss |  RGB, HSV, Spectral | D|
 | [ViTranZFAS](https://arxiv.org/abs/2011.08019)   | 2020 | Vision Transformer | Binary CE loss |  RGB | S|
 | [CIFL](https://ieeexplore.ieee.org/document/9336714)   | TIFS 2021 | ResNet18 | Binary focal loss, camear type loss |  RGB | S|
-| [XFace-PAD](https://arxiv.org/abs/2111.04862)   | FG 2021 | ResNet50, ViT | Binary CE loss, word-wise CE loss, a sentence discriminative loss, and a sentence
-semantic loss |  RGB | S|
-
+| [XFace-PAD](https://arxiv.org/abs/2111.04862)   | FG 2021 | ResNet50, ViT | Binary CE loss, word-wise CE loss, a sentence discriminative loss, and a sentence semantic loss |  RGB | S|
+| [PCGN](https://dl.acm.org/doi/pdf/10.1145/3474085.3475305)   | MM 2021 | ResNet101+GCN | CE Loss for node and edge |  RGB | S|
 
 
 
