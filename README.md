@@ -368,7 +368,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [D-M-Net](https://ieeexplore.ieee.org/document/9372969)   | 2021 | ResNeXt | Binary CE loss |  Multi-preprocessed Depth, RGB-NIR composition | Input&Feature-level|
 | [CMFL](https://arxiv.org/abs/2103.00948)   | CVPR 2021 | DenseNet161 | Binary CE loss, Cross modal focal loss |  RGB, Depth | Feature-level|
 | [MA-Net](https://ieeexplore.ieee.org/document/9374963)   | TIFS 2021 | CycleGAN, ResNet18 | Binary CE loss, GAN loss |  RGB, NIR | Feature-level|
-
+| [AMT](https://arxiv.org/abs/2110.09108)   | 2021 | Translator: shallow encoder+decoder + ResNet; Discriminator: DenseNet | BCE loss, Pixel-wise binary loss, reconstruction loss |  illumination normalized RGB or NIR or thermal or Depth | Input-level|
 
 
 
