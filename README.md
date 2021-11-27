@@ -181,7 +181,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [CIFL](https://ieeexplore.ieee.org/document/9336714)   | TIFS 2021 | ResNet18 | Binary focal loss, camear type loss |  RGB | S|
 | [XFace-PAD](https://arxiv.org/abs/2111.04862)   | FG 2021 | ResNet50, ViT | Binary CE loss, word-wise CE loss, a sentence discriminative loss, and a sentence semantic loss |  RGB | S|
 | [PCGN](https://dl.acm.org/doi/pdf/10.1145/3474085.3475305)   | MM 2021 | ResNet101+GCN | CE Loss for node and edge |  RGB whole image | S|
-
+| [TOD](https://arxiv.org/abs/2111.11046)   | 2021 | ResNet18, Graph Attention Network | CE Loss |  RGB  | S|
 
 
 
