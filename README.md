@@ -219,6 +219,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [MPFLN](https://openaccess.thecvf.com/content/ICCV2021W/HTCV/papers/Wang_Multi-Perspective_Features_Learning_for_Face_Anti-Spoofing_ICCVW_2021_paper.pdf)   | ICCVW 2021 | Depth, BinaryMask | CDCN, 3D-CDCN |  RGB | S, D|
 | [DSDG+DUM](https://arxiv.org/abs/2112.00568)   | TIFS 2021 | Depth | CDCN |  RGB | S|
 | [EPCR](https://arxiv.org/pdf/2111.12320.pdf)   | 2021 | BinaryMask | CDCN |  RGB | S|
+| [AISL](https://www.sciencedirect.com/science/article/pii/S0167865521004384)   | PRL 2021 | Depth | DepthNet |  RGB | S|
 
 
 <a name="generative" />
