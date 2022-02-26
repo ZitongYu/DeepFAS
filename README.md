@@ -283,7 +283,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [HFN+MP](https://arxiv.org/abs/2110.06753)   | 2021 | Two-stream ResNet50 | Binary CE loss, MSE loss |  S|
 | [SDFANet](https://ieeexplore.ieee.org/document/9600829)   | TIFS 2021 | ResNet-18 | BCE loss + multi-grained loss + center loss + asymmetric triplet loss  |  S|
 | [VLAD-VSA](https://dl.acm.org/doi/abs/10.1145/3474085.3475284)   | ACMMM 2021 | DepthNet or ResNet18 | BCE loss + triplet loss + domain adversarial loss + orthogonal loss +  centroid adaptation loss + intra loss  |  S|
-
+| [FGHV](https://arxiv.org/abs/2112.14894)   | AAAI 2022 | DepthNet | Variance + Relative Correlation + Distribution Discrimination Constraints  |  S|
 
 
 <a name="zero-shot" />
