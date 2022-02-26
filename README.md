@@ -220,7 +220,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [DSDG+DUM](https://arxiv.org/abs/2112.00568)   | TIFS 2021 | Depth | CDCN |  RGB | S|
 | [EPCR](https://arxiv.org/pdf/2111.12320.pdf)   | 2021 | BinaryMask | CDCN |  RGB | S|
 | [AISL](https://www.sciencedirect.com/science/article/pii/S0167865521004384)   | PRL 2021 | Depth | DepthNet |  RGB | S|
-
+| [MEGC](https://arxiv.org/abs/2202.10187)   | ICASSP 2022 | Depth, Relection, Moire, Boundary | DepthNet+Feature Enrichment |  RGB, HSV | S|
 
 <a name="generative" />
 
