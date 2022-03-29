@@ -183,7 +183,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [PCGN](https://dl.acm.org/doi/pdf/10.1145/3474085.3475305)   | MM 2021 | ResNet101+GCN | CE Loss for node and edge |  RGB whole image | S|
 | [TOD](https://arxiv.org/abs/2111.11046)   | 2021 | ResNet18, Graph Attention Network | CE Loss |  RGB  | S|
 | [MTSS](https://www.bmvc2021-virtualconference.com/assets/papers/0113.pdf)   | BMVC 2021 | ViT+Multi-Level Attention Module | CE Loss |  RGB  | S|
-
+| [PatchNet](https://arxiv.org/abs/2203.14325)   | CVPR 2022 | ResNet18 | Asymmetric AM-Softmax Loss, Self-Supervised Similarity Loss |  RGB patches | S|
 
 
 <a name="auxiliary" />
