@@ -1,6 +1,6 @@
 # 👏 Survey of Deep Face Anti-spoofing 🔥
 
-This is the official repository of "**[Deep Learning for Face Anti-Spoofing: A Survey](https://arxiv.org/pdf/2106.14948.pdf)**", a comprehensive survey 
+This is the official repository of "**[Deep Learning for Face Anti-Spoofing: A Survey](https://arxiv.org/abs/2106.14948)**", a comprehensive survey 
 of recent progress in deep learning methods for face anti-spoofing (FAS) as well as the datasets and protocols.
 
 
