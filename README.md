@@ -8,11 +8,11 @@ of recent progress in deep learning methods for face anti-spoofing (FAS) as well
 ### Citation
 If you find our work useful in your research, please consider citing:
 
-    @article{yu2021deep,
+    @article{yu2022deep,
       title={Deep Learning for Face Anti-Spoofing: A Survey},
-      author={Yu, Zitong and Qin, Yunxiao and Li, Xiaobai and Zhao, Chenxu and Lei, Zhen and Zhao, Guoying},
+      author={Yu, Zitong and Qin, Yunxiao and Zhao, Chenxu and Cui, Yawen and Wang, Zezheng and Li, Xiaobai and Lei, Zhen and Zhao, Guoying},
       journal={arXiv preprint arXiv:2106.14948},
-      year={2021}
+      year={2022}
     }
 
 
