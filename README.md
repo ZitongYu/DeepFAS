@@ -186,6 +186,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [PatchNet](https://arxiv.org/abs/2203.14325)   | CVPR 2022 | ResNet18 | Asymmetric AM-Softmax Loss, Self-Supervised Similarity Loss |  RGB patches | S|
 
 
+
 <a name="auxiliary" />
 
 #### Pixel-wise auxiliary supervision
@@ -221,6 +222,8 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [EPCR](https://arxiv.org/pdf/2111.12320.pdf)   | 2021 | BinaryMask | CDCN |  RGB | S|
 | [AISL](https://www.sciencedirect.com/science/article/pii/S0167865521004384)   | PRL 2021 | Depth | DepthNet |  RGB | S|
 | [MEGC](https://arxiv.org/abs/2202.10187)   | ICASSP 2022 | Depth, Relection, Moire, Boundary | DepthNet+Feature Enrichment |  RGB, HSV | S|
+| [EulerNet](http://ksiresearch.org/seke/seke22paper/paper076.pdf)   | 2022 | Face Location Map | EulerNet with Temporal Attention, Residual Pyramid |  RGB | T|
+
 
 <a name="generative" />
 
@@ -377,7 +380,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [AMT](https://arxiv.org/abs/2110.09108)   | TMM 2021 | Translator: shallow encoder+decoder + ResNet; Discriminator: DenseNet | BCE loss, Pixel-wise binary loss, reconstruction loss |  illumination normalized RGB or NIR or thermal or Depth | Input-level|
 | [FlexModal-FAS](https://arxiv.org/abs/2202.08192)   | 2022 | CDCN, ResNet50, ViT | BCE loss, Pixel-wise binary loss |  RGB, Depth, IR | Feature-level|
 | [CompreEval](https://arxiv.org/abs/2202.10286)   | 2022 | DenseNet-161  | BCE loss, Pixel-wise binary loss |  RGB, Depth, NIR, SWIR, Thermal | Input-level|
-
+| [Conv-MLP](https://ieeexplore.ieee.org/document/9796574)   | TIFS 2022 | Conv-MLP | Binary CE Loss, Moat Loss |  RGB, Depth, NIR | Input-level|
 
 
 
