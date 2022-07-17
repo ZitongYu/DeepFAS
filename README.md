@@ -261,8 +261,6 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [SCNN++PL+TC](https://ieeexplore.ieee.org/document/9387164)   | TIP 2021 | ResNet18 | CE Loss in labeled and unlabeled sets |  D|
 | [USDAN](https://www.sciencedirect.com/science/article/pii/S0031320321000753?via%3Dihub)   | PR 2021 | ResNet18 | Adaptive binary CE loss, Entropy loss, Adversarial loss |  S|
 | [SASA](https://arxiv.org/pdf/2106.14162.pdf)   | 2021 | ResNet18 | CE Loss, Adversarial loss, Less-forgetting constraints, Contrastive semantic alignment |  S|
-| [ViTAF](https://arxiv.org/abs/2203.12175)   | ECCV 2022 | ViT+adaptor | CE Loss,  Cosine loss |  S|
-
 
 
 
@@ -302,6 +300,8 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [DTN](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Deep_Tree_Learning_for_Zero-Shot_Face_Anti-Spoofing_CVPR_2019_paper.pdf)   | CVPR 2019 | Deep Tree Network | Binary CE loss, Pixel-wise binary loss, Unsupervised Tree loss |  RGB, HSV|
 | [AIM-FAS](https://ojs.aaai.org/index.php/AAAI/article/view/6866)   | AAAI 2020 | DepthNet | Depth loss, Contrastive Depth loss |  RGB |
 | [CM-PAD](https://ieeexplore.ieee.org/document/9304920)   | IJCB 2021 | DepthNet, ResNet | Binary CE loss, Depth loss, Gradient alignment |  RGB|
+| [ViTAF](https://arxiv.org/abs/2203.12175)   | ECCV 2022 | ViT+adaptor | CE Loss,  Cosine loss |  S|
+
 
 
 
