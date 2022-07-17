@@ -222,7 +222,8 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [EPCR](https://arxiv.org/pdf/2111.12320.pdf)   | 2021 | BinaryMask | CDCN |  RGB | S|
 | [AISL](https://www.sciencedirect.com/science/article/pii/S0167865521004384)   | PRL 2021 | Depth | DepthNet |  RGB | S|
 | [MEGC](https://arxiv.org/abs/2202.10187)   | ICASSP 2022 | Depth, Relection, Moire, Boundary | DepthNet+Feature Enrichment |  RGB, HSV | S|
-| [EulerNet](http://ksiresearch.org/seke/seke22paper/paper076.pdf)   | 2022 | Face Location Map | EulerNet with Temporal Attention, Residual Pyramid |  RGB | T|
+| [EulerNet](http://ksiresearch.org/seke/seke22paper/paper076.pdf)   | 2022 | Face Location Map | EulerNet with Temporal Attention, Residual Pyramid |  RGB | D|
+| [TTN](https://ieeexplore.ieee.org/document/9730902)   | TIFS 2022 | Depth | ViT with Pyramid Temporal Aggregation, Temporal Difference Attentions |  RGB | D|
 
 
 <a name="generative" />
