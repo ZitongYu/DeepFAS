@@ -224,6 +224,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [MEGC](https://arxiv.org/abs/2202.10187)   | ICASSP 2022 | Depth, Relection, Moire, Boundary | DepthNet+Feature Enrichment |  RGB, HSV | S|
 | [EulerNet](http://ksiresearch.org/seke/seke22paper/paper076.pdf)   | 2022 | Face Location Map | EulerNet with Temporal Attention, Residual Pyramid |  RGB | D|
 | [TTN](https://ieeexplore.ieee.org/document/9730902)   | TIFS 2022 | Depth | ViT with Pyramid Temporal Aggregation, Temporal Difference Attentions |  RGB | D|
+| [TransFAS](https://ieeexplore.ieee.org/document/9817442)   | TBIOM 2022 | Depth | ViT with Cross-Layer Attentions |  RGB | S|
 
 
 <a name="generative" />
