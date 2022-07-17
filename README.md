@@ -177,14 +177,14 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [SimpleNet](https://arxiv.org/abs/2006.16028)   | 2020 | Multi-stream 5-layer CNN | Binary CE loss |  RGB, OF, RP | D|
 | [PatchCNN](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0238058)   | 2020 | SqueezeNet v1.1 | Binary CE loss, Triplet loss |  RGB | S|
 | [FreqSpatialTempNet](https://arxiv.org/abs/2002.03723)   | 2020 | ResNet18 | Binary CE loss |  RGB, HSV, Spectral | D|
-| [ViTranZFAS](https://arxiv.org/abs/2011.08019)   |IJCB 2021 | Vision Transformer | Binary CE loss |  RGB | S|
+| [ViTranZFAS](https://arxiv.org/abs/2011.08019)   |IJCB 2021 | ViT | Binary CE loss |  RGB | S|
 | [CIFL](https://ieeexplore.ieee.org/document/9336714)   | TIFS 2021 | ResNet18 | Binary focal loss, camear type loss |  RGB | S|
 | [XFace-PAD](https://arxiv.org/abs/2111.04862)   | FG 2021 | ResNet50, ViT | Binary CE loss, word-wise CE loss, a sentence discriminative loss, and a sentence semantic loss |  RGB | S|
 | [PCGN](https://dl.acm.org/doi/pdf/10.1145/3474085.3475305)   | MM 2021 | ResNet101+GCN | CE Loss for node and edge |  RGB whole image | S|
 | [TOD](https://arxiv.org/abs/2111.11046)   | 2021 | ResNet18, Graph Attention Network | CE Loss |  RGB  | S|
 | [MTSS](https://www.bmvc2021-virtualconference.com/assets/papers/0113.pdf)   | BMVC 2021 | ViT+Multi-Level Attention Module | CE Loss |  RGB  | S|
 | [PatchNet](https://arxiv.org/abs/2203.14325)   | CVPR 2022 | ResNet18 | Asymmetric AM-Softmax Loss, Self-Supervised Similarity Loss |  RGB patches | S|
-
+| [ViTransPAD](https://arxiv.org/pdf/2203.01562.pdf)   | ICIP 2022 | EfficientNet + VideoViT | CE Loss |  RGB | D|
 
 
 <a name="auxiliary" />
@@ -209,7 +209,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [BCN](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123520545.pdf)   | ECCV 2020 | BinaryMask, Depth, Reflection | DepthNet |  RGB | S|
 | [Disentangled](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123640630.pdf)   | ECCV 2020 | Depth, TextureMap | DepthNet |  RGB | S|
 | [AENet](https://link.springer.com/chapter/10.1007/978-3-030-58610-2_5)   | ECCV 2020 | Depth, Reflection | ResNet18 |  RGB | S|
-| [3DPC-Net](https://ieeexplore.ieee.org/document/9304873)   | 2020 | 3D Point Cloud | ResNet18 |  RGB | S|
+| [3DPC-Net](https://ieeexplore.ieee.org/document/9304873)   | IJCB 2020 | 3D Point Cloud | ResNet18 |  RGB | S|
 | [PS](https://ieeexplore.ieee.org/document/9375488)   | TBIOM 2020 | BinaryMask or Depth | ResNet50 or CDCN |  RGB | S|
 | [NAS-FAS](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9252183)   | PAMI 2020 | BinaryMask or Depth | NAS |  RGB | D|
 | [DAM](https://ieeexplore.ieee.org/abstract/document/9382387)   | 2021 | Depth | VGG16, TSM |  RGB | D|
@@ -237,7 +237,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [TAE](http://publications.idiap.ch/downloads/papers/2020/Mohammadi_InfoVAE_ICASSP_2020.pdf)   | ICASSP 2020 | Binary CE loss, Reconstruction loss | Info-VAE, DenseNet161 |  RGB | S|
 | [STDN](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630392.pdf)   | ECCV 2020 | BinaryMask, RGB Input (live) | U-Net, PatchGAN |  RGB | S|
 | [GOGen](https://openaccess.thecvf.com/content_CVPR_2020/papers/Stehouwer_Noise_Modeling_Synthesis_and_Classification_for_Generic_Object_Anti-Spoofing_CVPR_2020_paper.pdf)   | CVPR 2020 | RGB input |  DepthNet |  RGB+one-hot vector | S|
-| [PhySTD](https://arxiv.org/abs/2012.05185)   | 2021 | Depth, RGB Input (live) |  U-Net, PatchGAN |  Frequency Trace | S|
+| [PhySTD](https://arxiv.org/abs/2012.05185)   | PAMI 2022 | Depth, RGB Input (live) |  U-Net, PatchGAN |  Frequency Trace | S|
 | [MT-FAS](https://ieeexplore.ieee.org/document/9462562)   | PAMI 2021 | ZeroMap (live), LearnableMap (Spoof) |  DepthNet |  RGB | S|
 | [IF-OM](https://arxiv.org/pdf/2109.04100.pdf)   | 2021 | RGB input, mixed input features |  MobileNetV2 + UNet |  RGB, mixed RGB, folded RGB | S|
 | [Dual-Stage Disentanglement](https://arxiv.org/abs/2110.09157)   | WACV 2021 | ZeroMap (live), RGB Input for reconstruction  | U-Net, ResNet18 |  RGB | S|
