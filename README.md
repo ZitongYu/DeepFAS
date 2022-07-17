@@ -260,6 +260,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [SCNN++PL+TC](https://ieeexplore.ieee.org/document/9387164)   | TIP 2021 | ResNet18 | CE Loss in labeled and unlabeled sets |  D|
 | [USDAN](https://www.sciencedirect.com/science/article/pii/S0031320321000753?via%3Dihub)   | PR 2021 | ResNet18 | Adaptive binary CE loss, Entropy loss, Adversarial loss |  S|
 | [SASA](https://arxiv.org/pdf/2106.14162.pdf)   | 2021 | ResNet18 | CE Loss, Adversarial loss, Less-forgetting constraints, Contrastive semantic alignment |  S|
+| [ViTAF](https://arxiv.org/abs/2203.12175)   | ECCV 2022 | ViT+adaptor | CE Loss,  Cosine loss |  S|
 
 
 
