@@ -262,6 +262,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [SCNN++PL+TC](https://ieeexplore.ieee.org/document/9387164)   | TIP 2021 | ResNet18 | CE Loss in labeled and unlabeled sets |  D|
 | [USDAN](https://www.sciencedirect.com/science/article/pii/S0031320321000753?via%3Dihub)   | PR 2021 | ResNet18 | Adaptive binary CE loss, Entropy loss, Adversarial loss |  S|
 | [SASA](https://arxiv.org/pdf/2106.14162.pdf)   | 2021 | ResNet18 | CE Loss, Adversarial loss, Less-forgetting constraints, Contrastive semantic alignment |  S|
+| [GDA](https://arxiv.org/abs/2207.10015)   |ECCV 2022 | DepthNet | CE Loss, Depth loss, Inter-domain Neural Statistic Consistency, phase consistency, Perceptual loss |  S|
 
 
 
@@ -289,6 +290,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [VLAD-VSA](https://dl.acm.org/doi/abs/10.1145/3474085.3475284)   | ACMMM 2021 | DepthNet or ResNet18 | BCE loss + triplet loss + domain adversarial loss + orthogonal loss +  centroid adaptation loss + intra loss  |  S|
 | [FGHV](https://arxiv.org/abs/2112.14894)   | AAAI 2022 | DepthNet | Variance + Relative Correlation + Distribution Discrimination Constraints  |  S|
 | [SSAN](https://arxiv.org/pdf/2203.05340.pdf)   | CVPR 2022 | DepthNet/ResNet18 | CE loss + Domain Adversarial loss + Contrastive loss  |  S|
+| [AMEL](https://arxiv.org/abs/2207.09868)   | ACMMM 2022 | DepthNet | CE loss, Depth loss, Feature consistency loss  |  S|
 
 
 <a name="zero-shot" />
