@@ -386,6 +386,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [FlexModal-FAS](https://arxiv.org/abs/2202.08192)   | 2022 | CDCN, ResNet50, ViT | BCE loss, Pixel-wise binary loss |  RGB, Depth, IR | Feature-level|
 | [CompreEval](https://arxiv.org/abs/2202.10286)   | 2022 | DenseNet-161  | BCE loss, Pixel-wise binary loss |  RGB, Depth, NIR, SWIR, Thermal | Input-level|
 | [Conv-MLP](https://ieeexplore.ieee.org/document/9796574)   | TIFS 2022 | Conv-MLP | Binary CE Loss, Moat Loss |  RGB, Depth, NIR | Input-level|
+| [MA-ViT](https://www.ijcai.org/proceedings/2022/0165.pdf)   | IJCAI 2022 | ViT-S/16 | Binary CE Loss on image and modality |  RGB, Depth, NIR | Input&Feature-level|
 
 
 
