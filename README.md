@@ -291,7 +291,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [FGHV](https://arxiv.org/abs/2112.14894)   | AAAI 2022 | DepthNet | Variance + Relative Correlation + Distribution Discrimination Constraints  |  S|
 | [SSAN](https://arxiv.org/pdf/2203.05340.pdf)   | CVPR 2022 | DepthNet/ResNet18 | CE loss + Domain Adversarial loss + Contrastive loss  |  S|
 | [AMEL](https://arxiv.org/abs/2207.09868)   | ACMMM 2022 | DepthNet | CE loss, Depth loss, Feature consistency loss  |  S|
-
+| [MD-FAS](https://arxiv.org/pdf/2208.11148.pdf)   | ECCV 2022 | PhySTD | CE loss, Binary Mask loss, Source & Target distillation loss  |  S|
 
 <a name="zero-shot" />
 
