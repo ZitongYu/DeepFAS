@@ -219,6 +219,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [LMFD-PAD](https://arxiv.org/pdf/2109.07950.pdf)   | 2021 | BinaryMask | Dual-ResNet50 |  RGB + frequency map | S|
 | [MPFLN](https://openaccess.thecvf.com/content/ICCV2021W/HTCV/papers/Wang_Multi-Perspective_Features_Learning_for_Face_Anti-Spoofing_ICCVW_2021_paper.pdf)   | ICCVW 2021 | Depth, BinaryMask | CDCN, 3D-CDCN |  RGB | S, D|
 | [DSDG+DUM](https://arxiv.org/abs/2112.00568)   | TIFS 2021 | Depth | CDCN |  RGB | S|
+| [SAFPAD](https://ieeexplore.ieee.org/document/9650907)   | TIFS 2021 | Depth | DepthNet |  RGB & Patch | S|
 | [EPCR](https://arxiv.org/pdf/2111.12320.pdf)   | 2021 | BinaryMask | CDCN |  RGB | S|
 | [AISL](https://www.sciencedirect.com/science/article/pii/S0167865521004384)   | PRL 2021 | Depth | DepthNet |  RGB | S|
 | [MEGC](https://arxiv.org/abs/2202.10187)   | ICASSP 2022 | Depth, Relection, Moire, Boundary | DepthNet+Feature Enrichment |  RGB, HSV | S|
@@ -389,7 +390,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [CompreEval](https://arxiv.org/abs/2202.10286)   | 2022 | DenseNet-161  | BCE loss, Pixel-wise binary loss |  RGB, Depth, NIR, SWIR, Thermal | Input-level|
 | [Conv-MLP](https://ieeexplore.ieee.org/document/9796574)   | TIFS 2022 | Conv-MLP | Binary CE Loss, Moat Loss |  RGB, Depth, NIR | Input-level|
 | [MA-ViT](https://www.ijcai.org/proceedings/2022/0165.pdf)   | IJCAI 2022 | ViT-S/16 | Binary CE Loss on image and modality |  RGB, Depth, NIR | Input&Feature-level|
-
+| [Echo-FAS](https://ieeexplore.ieee.org/abstract/document/9868051)   | TIFS 2022 | ResNet18, Transformer | Binary CE Loss |  RGB, Vocal | Feature-level|
 
 
 
