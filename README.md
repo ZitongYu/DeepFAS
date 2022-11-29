@@ -185,7 +185,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [MTSS](https://www.bmvc2021-virtualconference.com/assets/papers/0113.pdf)   | BMVC 2021 | ViT+Multi-Level Attention Module | CE Loss |  RGB  | S|
 | [PatchNet](https://arxiv.org/abs/2203.14325)   | CVPR 2022 | ResNet18 | Asymmetric AM-Softmax Loss, Self-Supervised Similarity Loss |  RGB patches | S|
 | [ViTransPAD](https://arxiv.org/pdf/2203.01562.pdf)   | ICIP 2022 | EfficientNet + VideoViT | CE Loss |  RGB | D|
-
+| [FGDNet](https://ieeexplore.ieee.org/document/9946402)   | TMM 2022 | Convolutional Transformer | 5-class CE Loss |  RGB | S|
 
 <a name="auxiliary" />
 
