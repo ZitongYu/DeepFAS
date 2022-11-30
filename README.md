@@ -295,6 +295,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [AMEL](https://arxiv.org/abs/2207.09868)   | ACMMM 2022 | DepthNet | CE loss, Depth loss, Feature consistency loss  |  S|
 | [MD-FAS](https://arxiv.org/pdf/2208.11148.pdf)   | ECCV 2022 | PhySTD | CE loss, Binary Mask loss, Source & Target distillation loss  |  S|
 | [CIFAS](https://ieeexplore.ieee.org/document/9859783)   | ICME 2022 | ResNet18 | CE loss, triplet loss  |  S|
+| [OneSideTriplet](https://arxiv.org/pdf/2211.15955.pdf)   | FG 2023 | DepthNet+UNet | CE loss, triplet loss, Depth loss, Segmentation loss  |  S|
 
 
 <a name="zero-shot" />
