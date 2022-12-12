@@ -328,6 +328,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [MCCNN](https://ieeexplore.ieee.org/document/9153044)   | 2020 | LightCNN | Binary CE loss, Contrastive loss |  Grayscale, IR, Depth, Thermal|
 | [End2End-Anomaly](https://arxiv.org/abs/2007.05856)   | 2020 | VGG-Face | Binary CE loss, Pairwise confusion |  RGB|
 | [ClientAnomaly](https://www.sciencedirect.com/science/article/pii/S0031320320304994)   | PR 2020 | ResNet50 or GoogLeNet or VGG16 | One-class SVM or Mahalanobis distance or Gaussian Mixture Model |  RGB|
+| [ContrastiveEVT](https://dl.acm.org/doi/abs/10.1145/3474085.3475538)   | ACM MM 2021 | cVAE | Binary CE loss, reconstruction loss, contrastive loss|  RGB|
 | [OneClassKD](https://arxiv.org/abs/2205.03792)   | TIFS 2022 | DepthNet | Pixel-wise Binary CE loss, multi-level KD loss|  RGB|
 
 
