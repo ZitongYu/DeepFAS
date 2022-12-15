@@ -265,7 +265,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [USDAN](https://www.sciencedirect.com/science/article/pii/S0031320321000753?via%3Dihub)   | PR 2021 | ResNet18 | Adaptive binary CE loss, Entropy loss, Adversarial loss |  S|
 | [SASA](https://arxiv.org/pdf/2106.14162.pdf)   | 2021 | ResNet18 | CE Loss, Adversarial loss, Less-forgetting constraints, Contrastive semantic alignment |  S|
 | [GDA](https://arxiv.org/abs/2207.10015)   |ECCV 2022 | DepthNet | CE Loss, Depth loss, Inter-domain Neural Statistic Consistency, phase consistency, Perceptual loss |  S|
-
+| [CDFTN](https://arxiv.org/abs/2212.03651)   |AAAI 2023 | ResNet18 | CE Loss, Reconstruction loss, triplet loss |  S|
 
 
 
