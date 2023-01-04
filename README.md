@@ -296,6 +296,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [MD-FAS](https://arxiv.org/pdf/2208.11148.pdf)   | ECCV 2022 | PhySTD | CE loss, Binary Mask loss, Source & Target distillation loss  |  S|
 | [CIFAS](https://ieeexplore.ieee.org/document/9859783)   | ICME 2022 | ResNet18 | CE loss, triplet loss  |  S|
 | [OneSideTriplet](https://arxiv.org/pdf/2211.15955.pdf)   | FG 2023 | DepthNet+UNet | CE loss, triplet loss, Depth loss, Segmentation loss  |  S|
+| [DiVT](https://openaccess.thecvf.com/content/WACV2023/papers/Liao_Domain_Invariant_Vision_Transformer_Learning_for_Face_Anti-Spoofing_WACV_2023_paper.pdf)   | WACV 2023 |  MobileViT-S | Domain-invariant Concentration and Attack-separation Loss  |  S|
 
 
 <a name="zero-shot" />
