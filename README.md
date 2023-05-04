@@ -77,7 +77,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [RECOD-Mtablet](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0238058)   | 2020 | 450/1800(V) | 45 | Outdoor environment and low-light & dynamic sessions | Print(flat), Replay(monitor) |
 | [CASIA-SURF 3DMask](https://ieeexplore.ieee.org/document/9252183)   | 2020 | 288/864(V)  | 48 |  High-quality identity-preserved; 3 decorations and 6 environments | Mask(mannequin with 3D print) |
 | [HiFiMask](https://arxiv.org/abs/2104.06148)   | 2021 | 13650/40950(V) | 75 |  three mask decorations; 7 recording devices; 6 lighting conditions; 6 scenes | Mask(transparent, plaster, resin)|
-| [SiW-M v2](https://github.com/CHELSEA234/Multi-domain-learning-FAS)   | 2022 | 785/915 (V) | 1093(493/600) |  Multiple spoof types, diverse age and enthnicity | 14 spoof attacks verified by the IAPRA team|
+| [SiW-M v2](https://github.com/CHELSEA234/Multi-domain-learning-FAS)   | 2022 | 785/915 (V) | 1093(493/600) |  Both indoor and outdoor, diverse age and enthnicity, 7 illumiations | IAPRA-verified 14 spoof attacks (4 coverings, 3 makeups, 3 masks, 2 human models, replay and print)|
 
 
 
