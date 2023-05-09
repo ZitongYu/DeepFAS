@@ -403,6 +403,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 #### Flexible-modal learning
 
 | Method    | Year | Backbone | Loss |  Input | Fusion |
+| --------   | -----    | -----  |  -----  | -----  | -----  |
 | [CMFL](https://arxiv.org/abs/2103.00948)   | CVPR 2021 | DenseNet161 | Binary CE loss, Cross modal focal loss |  RGB, Depth | Feature-level|
 | [MA-ViT](https://www.ijcai.org/proceedings/2022/0165.pdf)   | IJCAI 2022 | ViT-S/16 | Binary CE Loss on image and modality |  RGB, Depth, NIR | Input&Feature-level|
 | [FlexModal-FAS](https://arxiv.org/abs/2202.08192)   | CVPRW 2023 | CDCN, ResNet50, ViT | BCE loss, Pixel-wise binary loss |  RGB, Depth, IR | Feature-level|
