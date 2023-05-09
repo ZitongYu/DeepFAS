@@ -39,7 +39,8 @@ We present a comprehensive review of recent deep learning methods for face anti-
 - [Deep FAS methods with advanced sensor](#methods_advanced)
   - [Learning upon specialized sensor](#sensor)
   - [Multi-modal learning](#multimodal)
-  
+  - [Flexible-modal learning](#flexmodal)
+
 ---
   ![image](https://github.com/ZitongYu/DeepFAS/blob/main/Topology.png)   
   
@@ -389,14 +390,21 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [HGCNN](https://arxiv.org/abs/1811.11594)   | 2020 | Hypergraph-CNN, MLP | Binary CE loss |  RGB, Depth | Feature-level|
 | [MCT-GAN](https://link.springer.com/article/10.1007/s11042-020-08952-0)   | 2020 | CycleGAN, ResNet50 | GAN loss, Binary CE loss |  RGB, NIR | Input-level|
 | [D-M-Net](https://ieeexplore.ieee.org/document/9372969)   | 2021 | ResNeXt | Binary CE loss |  Multi-preprocessed Depth, RGB-NIR composition | Input&Feature-level|
-| [CMFL](https://arxiv.org/abs/2103.00948)   | CVPR 2021 | DenseNet161 | Binary CE loss, Cross modal focal loss |  RGB, Depth | Feature-level|
 | [MA-Net](https://ieeexplore.ieee.org/document/9374963)   | TIFS 2021 | CycleGAN, ResNet18 | Binary CE loss, GAN loss |  RGB, NIR | Feature-level|
 | [AMT](https://arxiv.org/abs/2110.09108)   | TMM 2021 | Translator: shallow encoder+decoder + ResNet; Discriminator: DenseNet | BCE loss, Pixel-wise binary loss, reconstruction loss |  illumination normalized RGB or NIR or thermal or Depth | Input-level|
-| [FlexModal-FAS](https://arxiv.org/abs/2202.08192)   | 2022 | CDCN, ResNet50, ViT | BCE loss, Pixel-wise binary loss |  RGB, Depth, IR | Feature-level|
 | [CompreEval](https://arxiv.org/abs/2202.10286)   | 2022 | DenseNet-161  | BCE loss, Pixel-wise binary loss |  RGB, Depth, NIR, SWIR, Thermal | Input-level|
 | [Conv-MLP](https://ieeexplore.ieee.org/document/9796574)   | TIFS 2022 | Conv-MLP | Binary CE Loss, Moat Loss |  RGB, Depth, NIR | Input-level|
-| [MA-ViT](https://www.ijcai.org/proceedings/2022/0165.pdf)   | IJCAI 2022 | ViT-S/16 | Binary CE Loss on image and modality |  RGB, Depth, NIR | Input&Feature-level|
 | [Echo-FAS](https://ieeexplore.ieee.org/abstract/document/9868051)   | TIFS 2022 | ResNet18, Transformer | Binary CE Loss |  RGB, Vocal | Feature-level|
+| [AMA+M2A2E](https://arxiv.org/pdf/2302.05744.pdf)   | 2023 | ViT | BCE Loss, reconstruction loss for MAE |  RGB, Depth, IR | Feature-level|
 
 
+<a name="flexmodal" />
+
+#### Flexible-modal learning
+
+| Method    | Year | Backbone | Loss |  Input | Fusion |
+| [CMFL](https://arxiv.org/abs/2103.00948)   | CVPR 2021 | DenseNet161 | Binary CE loss, Cross modal focal loss |  RGB, Depth | Feature-level|
+| [MA-ViT](https://www.ijcai.org/proceedings/2022/0165.pdf)   | IJCAI 2022 | ViT-S/16 | Binary CE Loss on image and modality |  RGB, Depth, NIR | Input&Feature-level|
+| [FlexModal-FAS](https://arxiv.org/abs/2202.08192)   | CVPRW 2023 | CDCN, ResNet50, ViT | BCE loss, Pixel-wise binary loss |  RGB, Depth, IR | Feature-level|
+| [FM-ViT](https://arxiv.org/abs/2305.03277)   | TIFS 2023 | ViT | BCE loss for flexible-modal classification heads |  RGB, Depth, IR | Feature-level|
 
