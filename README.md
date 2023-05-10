@@ -36,6 +36,8 @@ We present a comprehensive review of recent deep learning methods for face anti-
   - [Domain generalization](#DG)
   - [Zero/Few-shot learning](#zero-shot)
   - [Anomaly detection](#oneclass)
+  - [Semi-supervision & Self-supervision](#semiself)
+  - [Continual learning](#CL)
 - [Deep FAS methods with advanced sensor](#methods_advanced)
   - [Learning upon specialized sensor](#sensor)
   - [Multi-modal learning](#multimodal)
@@ -263,8 +265,6 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [DR-UDA](https://ieeexplore.ieee.org/abstract/document/9116802)   | TIFS 2020 | ResNet18 | Center&Triplet loss, Adversarial loss, Disentangled loss |  S|
 | [DGP](https://ieeexplore.ieee.org/document/9053685)   |ICASSP 2020 | DenseNet161 | Feature divergence measure, BinaryMask loss |  S|
 | [Distillation](https://signalprocessingsociety.org/publications-resources/ieee-journal-selected-topics-signal-processing/face-anti-spoofing-deep-neural)   | J-STSP 2020 | AlexNet | Binary CE loss, MMD loss , Paired Similarity |  S|
-| [SCNN++PL+TC](https://ieeexplore.ieee.org/document/9387164)   | TIP 2021 | ResNet18 | CE Loss in labeled and unlabeled sets |  D|
-| [USDAN](https://www.sciencedirect.com/science/article/pii/S0031320321000753?via%3Dihub)   | PR 2021 | ResNet18 | Adaptive binary CE loss, Entropy loss, Adversarial loss |  S|
 | [SASA](https://arxiv.org/pdf/2106.14162.pdf)   | 2021 | ResNet18 | CE Loss, Adversarial loss, Less-forgetting constraints, Contrastive semantic alignment |  S|
 | [GDA](https://arxiv.org/abs/2207.10015)   |ECCV 2022 | DepthNet | CE Loss, Depth loss, Inter-domain Neural Statistic Consistency, phase consistency, Perceptual loss |  S|
 | [CDFTN](https://arxiv.org/abs/2212.03651)   |AAAI 2023 | ResNet18 | CE Loss, Reconstruction loss, triplet loss |  S|
@@ -336,7 +336,38 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [OneClassKD](https://arxiv.org/abs/2205.03792)   | TIFS 2022 | DepthNet | Pixel-wise Binary CE loss, multi-level KD loss|  RGB|
 
 
+<a name="semiself" />
 
+#### Semi- & Self-supervision
+
+
+| Method    | Year | Semi/Self | Backbone | Loss |  
+| --------   | -----    | -----  |  -----  | -----  | 
+| [SCNN++PL+TC](https://ieeexplore.ieee.org/document/9387164)   | TIP 2021 | Semi; Pseudo-label| ResNet18 | CE Loss |  
+| [USDAN](https://www.sciencedirect.com/science/article/pii/S0031320321000753?via%3Dihub)   | PR 2021 | Semi; Distribution Alignment| ResNet18 | Adaptive binary CE loss, Entropy loss, Adversarial loss | 
+| [EPCR](https://ieeexplore.ieee.org/document/10012352)   | TIFS 2023 | Semi; Consistency Regularization | CDCN |  Prediction- & Embedding-level reconstruction loss|
+| [TSS](https://www.sciencedirect.com/science/article/pii/S0167865522000605)   | PRL 2022 | Self; Pretext task | ResNet18+BiLSTM |  CE loss for temporal sampling prediction|
+| [ACL-FAS](https://link.springer.com/chapter/10.1007/978-3-031-18910-4_39)   | PRCV 2022 | Self; Contrastive learning | - |  Region-Based Similarity Loss, Contrastive & Anti-contrastive loss|
+| [MIM-FAS](https://link.springer.com/chapter/10.1007/978-3-031-18907-4_62)   | PRCV 2022 | Self; Masked Image Modeling | ViT |  Reconstruction loss|
+| [DF-DM](https://ieeexplore.ieee.org/document/10051654)   | TNNLS 2023 | Self; Pretext task| DeepPixBiS, SSDG-R,  CDCN | GAN loss, Interpolation-based Consistency loss |
+| [MCAE](https://arxiv.org/abs/2302.08674)   | 2023 | Self+Supervised; Masked Image Modeling | ViT |  Reconstruction loss + Supervised Contrastive loss|
+| [AMA+M2A2E](https://arxiv.org/pdf/2302.05744.pdf)   | 2023 | Self; Masked Image Modeling| ViT | Reconstruction loss |
+
+
+
+
+<a name="CL" />
+
+#### Continual learning
+
+
+| Method    | Year | Replay or not | Backbone |  Loss |
+| --------   | -----    | -----  |  -----  | -----  | 
+| [DTN](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Deep_Tree_Learning_for_Zero-Shot_Face_Anti-Spoofing_CVPR_2019_paper.pdf)   | CVPR 2019 | Deep Tree Network | Binary CE loss, Pixel-wise binary loss, Unsupervised Tree loss |  RGB, HSV|
+
+| [DTN](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Deep_Tree_Learning_for_Zero-Shot_Face_Anti-Spoofing_CVPR_2019_paper.pdf)   | CVPR 2019 | Deep Tree Network | Binary CE loss, Pixel-wise binary loss, Unsupervised Tree loss |  RGB, HSV|
+
+| [DTN](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Deep_Tree_Learning_for_Zero-Shot_Face_Anti-Spoofing_CVPR_2019_paper.pdf)   | CVPR 2019 | Deep Tree Network | Binary CE loss, Pixel-wise binary loss, Unsupervised Tree loss |  RGB, HSV|
 
 
 
