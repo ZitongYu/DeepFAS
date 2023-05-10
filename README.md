@@ -366,9 +366,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | Method    | Year | Replay or not | Backbone |  Loss |
 | --------   | -----    | -----  |  -----  | -----  | 
 | [CM-PAD](https://ieeexplore.ieee.org/document/9304920)   | IJCB 2020 | with Replay | DepthNet |  batch/overall meta loss|
-
 | [Experience Replay](https://openaccess.thecvf.com/content/ICCV2021/papers/Rostami_Detection_and_Continual_Learning_of_Novel_Face_Presentation_Attacks_ICCV_2021_paper.pdf)   | ICCV 2021 | with Replay| ResNet50 | BCE loss for identified novel and replayed samples |  
-
 | [DCDCA+PPCR](https://arxiv.org/abs/2303.09914)   | 2023 | Rehearsal-Free | ViT | BCE loss, Proxy Prototype Contrastive Regularization |
 
 
