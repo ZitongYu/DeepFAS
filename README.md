@@ -363,11 +363,11 @@ We present a comprehensive review of recent deep learning methods for face anti-
 
 | Method    | Year | Replay or not | Backbone |  Loss |
 | --------   | -----    | -----  |  -----  | -----  | 
-| [DTN](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Deep_Tree_Learning_for_Zero-Shot_Face_Anti-Spoofing_CVPR_2019_paper.pdf)   | CVPR 2019 | Deep Tree Network | Binary CE loss, Pixel-wise binary loss, Unsupervised Tree loss |  RGB, HSV|
+| [CM-PAD](https://ieeexplore.ieee.org/document/9304920)   | IJCB 2020 | with Replay | DepthNet |  batch/overall meta loss|
 
-| [DTN](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Deep_Tree_Learning_for_Zero-Shot_Face_Anti-Spoofing_CVPR_2019_paper.pdf)   | CVPR 2019 | Deep Tree Network | Binary CE loss, Pixel-wise binary loss, Unsupervised Tree loss |  RGB, HSV|
+| [Experience Replay](https://openaccess.thecvf.com/content/ICCV2021/papers/Rostami_Detection_and_Continual_Learning_of_Novel_Face_Presentation_Attacks_ICCV_2021_paper.pdf)   | ICCV 2021 | with Replay| ResNet50 | BCE loss for identified novel and replayed samples |  
 
-| [DTN](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Deep_Tree_Learning_for_Zero-Shot_Face_Anti-Spoofing_CVPR_2019_paper.pdf)   | CVPR 2019 | Deep Tree Network | Binary CE loss, Pixel-wise binary loss, Unsupervised Tree loss |  RGB, HSV|
+| [DCDCA+PPCR](https://arxiv.org/abs/2303.09914)   | 2023 | Rehearsal-Free | ViT | BCE loss, Proxy Prototype Contrastive Regularization |
 
 
 
