@@ -303,6 +303,8 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [ALDICF](https://link.springer.com/article/10.1007/s11263-023-01778-x)   | IJCV 2023 |  ResNet18, ResNet50 | Intra-domain and cross-domain discrimination loss, Conditional Domain Adversarial loss   |  S|
 | [DKG+CSA+AIAW](https://arxiv.org/abs/2304.05640)   | CVPR 2023 |  DepthNet | BCE loss, Depth loss, Asymmetric Instance Adaptive Whiting loss   |  S|
 | [SA-FAS](https://arxiv.org/abs/2303.13662)   | CVPR 2023 |  ResNet18 | Contrastive loss, Alignment loss   |  S|
+| [SPDA]([https://arxiv.org/abs/2303.13662](https://ieeexplore.ieee.org/document/10095730))   | ICASSP 2023 |  ResNet18 | BCE loss, Domain loss, Self-paced Cluster Mining loss, orthogonal loss   |  S|
+| [CRFAS]([https://arxiv.org/abs/2303.13662](https://ieeexplore.ieee.org/document/10095329))   | ICASSP 2023 |  ResNet18 | BCE loss, Domain loss,  asymmetric triplet loss, Counterfactual Feature Generation loss   |  S|
 
 <a name="zero-shot" />
 
@@ -427,6 +429,7 @@ We present a comprehensive review of recent deep learning methods for face anti-
 | [Conv-MLP](https://ieeexplore.ieee.org/document/9796574)   | TIFS 2022 | Conv-MLP | Binary CE Loss, Moat Loss |  RGB, Depth, NIR | Input-level|
 | [Echo-FAS](https://ieeexplore.ieee.org/abstract/document/9868051)   | TIFS 2022 | ResNet18, Transformer | Binary CE Loss |  RGB, Vocal | Feature-level|
 | [AMA+M2A2E](https://arxiv.org/pdf/2302.05744.pdf)   | 2023 | ViT | BCE Loss, reconstruction loss for MAE |  RGB, Depth, IR | Feature-level|
+| [SNM]([https://arxiv.org/pdf/2302.05744.pdf](https://ieeexplore.ieee.org/abstract/document/10176121))   | TIFS 2023 | ResNet18 | BCE Loss, center loss, cosine loss |  Depth, IR | Feature-level|
 
 
 <a name="flexmodal" />
